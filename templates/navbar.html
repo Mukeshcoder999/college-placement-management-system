@@ -1,0 +1,40 @@
+<nav class="navbar">
+
+    <div class="logo">
+        <a href="/">CPMS</a>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Companies</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+
+    <div class="nav-buttons">
+
+        {% if request.user.is_authenticated %}
+
+            <span class="welcome-user">
+                Welcome, {{ request.user.username }}
+            </span>
+
+            <a href="{% url 'logout' %}" class="btn login-btn">
+                Logout
+            </a>
+
+        {% else %}
+
+            <a href="{% url 'login' %}" class="btn login-btn">
+                Login
+            </a>
+
+            <a href="{% url 'register' %}" class="btn register-btn">
+                Register
+            </a>
+
+        {% endif %}
+
+    </div>
+
+</nav>

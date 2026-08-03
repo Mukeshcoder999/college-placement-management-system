@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}
+Register
+{% endblock %}
+
+{% block content %}
+
+<div class="register-page">
+
+    <h1>Choose Registration Type</h1>
+
+    <div class="role-cards">
+
+        <div class="role-card">
+            <h2>👨‍🎓 Student</h2>
+            <p>Create your profile and apply for jobs.</p>
+
+            <a href="{% url 'student-register' %}" class="btn register-btn">
+                Register as Student
+            </a>
+        </div>
+
+        <div class="role-card">
+            <h2>🏢 Company</h2>
+            <p>Post jobs and recruit students.</p>
+
+            <a href="{% url 'company-register' %}" class="btn register-btn">
+                Register as Company
+            </a>
+        </div>
+
+        <div class="role-card">
+            <h2>👨‍💼 Placement Officer</h2>
+            <p>Manage students and placement activities.</p>
+
+            <a href="{% url 'officer-register' %}" class="btn register-btn">
+                Register as Officer
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
