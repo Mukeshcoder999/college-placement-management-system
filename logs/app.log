@@ -419,3 +419,12 @@ Traceback (most recent call last):
   File "D:\college_placement_system\venv\Lib\site-packages\pymysql\err.py", line 154, in raise_mysql_exception
     raise errorclass(errno, errval, sqlstate=sqlstate)
 django.db.utils.IntegrityError: (1062, "Duplicate entry 'Rahul' for key 'accounts_customuser.username'")
+INFO 2026-08-06 18:07:03,261 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-06 18:23:48,840 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-06 18:25:55,633 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-06 18:30:58,264 django.utils.autoreload D:\college_placement_system\placement_project\placement_project\settings.py changed, reloading.
+INFO 2026-08-06 18:30:58,680 django.utils.autoreload D:\college_placement_system\placement_project\placement_project\settings.py changed, reloading.
+INFO 2026-08-06 18:30:59,002 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-06 18:30:59,261 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-06 18:33:25,762 django.utils.autoreload D:\college_placement_system\placement_project\placement_project\settings.py changed, reloading.
+INFO 2026-08-06 18:33:25,762 django.utils.autoreload D:\college_placement_system\placement_project\placement_project\settings.py changed, reloading.
