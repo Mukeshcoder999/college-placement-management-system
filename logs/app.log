@@ -256,3 +256,8 @@ Traceback (most recent call last):
     raise TemplateDoesNotExist(template_name, chain=chain)
 django.template.exceptions.TemplateDoesNotExist: students/complete_profile.html
 INFO 2026-07-30 19:49:29,257 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-06 12:10:31,209 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-06 12:10:45,145 django.request Not Found: /favicon.ico
+WARNING 2026-08-06 12:11:05,827 django.request Not Found: /api/
+WARNING 2026-08-06 12:11:21,066 django.request Unauthorized: /jobs/
+WARNING 2026-08-06 12:11:22,238 django.request Unauthorized: /jobs/
