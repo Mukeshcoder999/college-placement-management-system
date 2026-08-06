@@ -261,3 +261,6 @@ WARNING 2026-08-06 12:10:45,145 django.request Not Found: /favicon.ico
 WARNING 2026-08-06 12:11:05,827 django.request Not Found: /api/
 WARNING 2026-08-06 12:11:21,066 django.request Unauthorized: /jobs/
 WARNING 2026-08-06 12:11:22,238 django.request Unauthorized: /jobs/
+INFO 2026-08-06 12:32:28,219 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-06 12:32:51,939 django.request Method Not Allowed: /accounts/api/login/
+WARNING 2026-08-06 12:33:24,311 django.request Method Not Allowed: /accounts/api/register/
