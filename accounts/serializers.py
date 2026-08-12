@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from .models import CustomUser
+import re
 from django.contrib.auth import get_user_model
 from django.contrib.auth import authenticate
 
@@ -40,10 +41,49 @@ class RegisterSerializer(serializers.ModelSerializer):
 
     def validate(self, attrs):
 
-        if attrs['password'] != attrs['confirm_password']:
-            raise serializers.ValidationError(
-                {"password": "Password and Confirm Password do not match."}
-            )
+        password = attrs["password"]
+
+        confirm_password = attrs["confirm_password"]
+
+        if len(password) < 6:
+
+            raise serializers.ValidationError({
+
+                "password": "Password must be at least 6 characters long."
+
+            })
+
+        if not re.search(r"[A-Z]", password):
+
+            raise serializers.ValidationError({
+
+                "password": "Password must contain at least one uppercase letter."
+
+            })
+
+        if not re.search(r"[a-z]", password):
+
+            raise serializers.ValidationError({
+
+                "password": "Password must contain at least one lowercase letter."
+
+            })
+
+        if not re.search(r"\d", password):
+
+            raise serializers.ValidationError({
+
+                "password": "Password must contain at least one number."
+
+            })
+
+        if password != confirm_password:
+
+            raise serializers.ValidationError({
+
+                "confirm_password": "Password and Confirm Password do not match."
+
+            })
 
         return attrs
 
@@ -68,18 +108,38 @@ class LoginSerializer(serializers.Serializer):
     password = serializers.CharField(write_only=True)
 
     def validate(self, attrs):
-        username = attrs.get('username')
-        password = attrs.get('password')
+        username = attrs.get("username")
 
-        user = authenticate(username=username, password=password)
+        password = attrs.get("password")
+
+        user = User.objects.filter(
+            username=username
+        ).first()
 
         if not user:
-            raise serializers.ValidationError(
-                {
-                    "error": "Invalid username or password."
-                }
-            )
 
-        attrs['user'] = user
+            raise serializers.ValidationError({
+
+                "username": "Invalid Username"
+
+            })
+
+        authenticated_user = authenticate(
+
+            username=username,
+
+            password=password
+
+        )
+
+        if not authenticated_user:
+
+            raise serializers.ValidationError({
+
+                "password": "Incorrect password."
+
+            })
+
+        attrs["user"] = authenticated_user
 
         return attrs

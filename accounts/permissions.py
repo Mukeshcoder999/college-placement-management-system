@@ -28,7 +28,7 @@ class IsPlacementOfficer(BasePermission):
 
         return (
             request.user.is_authenticated and
-            request.user.role == 'placement_officer'
+            request.user.role == 'officer'
         )
 #object level permission
 class IsJobOwner(BasePermission):
@@ -49,7 +49,7 @@ class IsApplicationAccessible(BasePermission):
         elif user.role == "company":
             return obj.job.company.user == user
 
-        elif user.role == "placement_officer":
+        elif user.role == "officer":
             return True
 
         return False
@@ -66,3 +66,25 @@ class CanUpdateApplication(BasePermission):
             "company",
             "placement_officer"
         ]
+
+class CanDeleteJob(BasePermission):
+
+    def has_permission(self, request, view):
+
+        return (
+            request.user.is_authenticated
+            and request.user.role in [
+                "company",
+                "placement_officer"
+            ]
+        )
+
+    def has_object_permission(self, request, view, obj):
+
+        if request.user.role == "company":
+            return obj.company.user == request.user
+
+        if request.user.role == "placement_officer":
+            return True
+
+        return False

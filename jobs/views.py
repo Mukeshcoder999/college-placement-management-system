@@ -5,10 +5,14 @@ from .models import Job
 from .serializers import JobSerializer
 from .filters import JobFilter
 from rest_framework.filters import SearchFilter, OrderingFilter
-from accounts.permissions import IsCompany, IsJobOwner
+from accounts.permissions import IsCompany, IsJobOwner, CanDeleteJob
 from rest_framework.permissions import IsAuthenticated
 from drf_spectacular.utils import extend_schema
 from .pagination import JobPagination
+from rest_framework.views import APIView
+from rest_framework.response import Response
+
+
 import logging
 # Create your views here.
 logger = logging.getLogger(__name__)
@@ -23,18 +27,15 @@ logger = logging.getLogger(__name__)
 )
 class JobListAPIView(generics.ListAPIView):
 
-    queryset = Job.objects.all()
-
     serializer_class = JobSerializer
-
     permission_classes = [IsAuthenticated]
+    pagination_class = JobPagination
     filter_backends = [
-    DjangoFilterBackend,
-    SearchFilter,
-    OrderingFilter,
-]
+        DjangoFilterBackend,
+        SearchFilter,
+        OrderingFilter,
+    ]
     filterset_class = JobFilter
-
     search_fields = [
         "job_title",
         "required_skills",
@@ -46,7 +47,28 @@ class JobListAPIView(generics.ListAPIView):
         "last_date",
         "created_at",
     ]
-    pagination_class = JobPagination
+
+    def get_queryset(self):
+        user = self.request.user
+
+        if user.role == "company":
+
+            return Job.objects.filter(
+                company=user.companyprofile
+            )
+
+        elif user.role == "placement_officer":
+
+            return Job.objects.all()
+
+        return Job.objects.filter(
+            is_active=True
+        )
+    def get_serializer_context(self):
+        context = super().get_serializer_context()
+        context["request"] = self.request
+        return context
+        
     
 #retrive data
 class JobDetailAPIView(generics.RetrieveAPIView):
@@ -85,7 +107,7 @@ class JobUpdateAPIView(generics.UpdateAPIView):
     permission_classes = [
         IsAuthenticated,
         IsCompany,
-        IsJobOwner
+        IsJobOwner,
     ]
 
 #delete data
@@ -98,6 +120,32 @@ class JobDeleteAPIView(generics.DestroyAPIView):
 
     permission_classes = [
         IsAuthenticated,
-        IsCompany,
-        IsJobOwner
+        CanDeleteJob
     ]
+
+
+class ToggleJobStatusAPIView(APIView):
+
+    permission_classes = [
+        IsAuthenticated,
+        IsCompany,
+        IsJobOwner,
+    ]
+
+    def patch(self, request, pk):
+
+        job = Job.objects.get(pk=pk)
+
+        self.check_object_permissions(request, job)
+
+        job.is_active = not job.is_active
+
+        job.save()
+
+        return Response({
+
+            "message": "Job status updated successfully.",
+
+            "is_active": job.is_active,
+
+        })

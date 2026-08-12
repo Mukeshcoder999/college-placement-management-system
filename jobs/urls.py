@@ -5,6 +5,7 @@ from .views import (
     JobCreateAPIView,
     JobUpdateAPIView,
     JobDeleteAPIView,
+    ToggleJobStatusAPIView,
 )
 
 urlpatterns = [
@@ -13,5 +14,6 @@ urlpatterns = [
     path('create/', JobCreateAPIView.as_view(), name='job-create'),
     path('<int:pk>/update/', JobUpdateAPIView.as_view(), name='job-update'),
     path('<int:pk>/delete/', JobDeleteAPIView.as_view(), name='job-delete'),
+    path("<int:pk>/toggle-status/", ToggleJobStatusAPIView.as_view(), name="toggle-job-status"),
     
 ]

@@ -7,6 +7,7 @@ from .views import (
     JobApplicationDeleteAPIView,
     CompanyApplicationListAPIView,
     AllApplicationsAPIView,
+    ApplicantDetailAPIView,
 )
 
 urlpatterns = [
@@ -15,9 +16,9 @@ urlpatterns = [
     path('create/', JobApplicationCreateAPIView.as_view(), name='application-create'),
     path('<int:pk>/update/', JobApplicationUpdateAPIView.as_view(), name='application-update'),
     path('<int:pk>/delete/', JobApplicationDeleteAPIView.as_view(), name='application-delete'),
-    path('company/', CompanyApplicationListAPIView.as_view(),
-         name='company-application-list'),
+    path('company/', CompanyApplicationListAPIView.as_view(),name='company-application-list'),
 
-    path('all/', AllApplicationsAPIView.as_view(),
-         name='all-application-list'),
+    path("student/<int:student_id>/", ApplicantDetailAPIView.as_view(), name="applicant-detail"),
+
+    path('all/', AllApplicationsAPIView.as_view(),name='all-application-list'),
 ]
