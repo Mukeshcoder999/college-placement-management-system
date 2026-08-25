@@ -140,6 +140,11 @@ class StudentProfileUpdateAPIView(generics.UpdateAPIView):
 
     def get_object(self):
         return self.request.user.studentprofile
+    def update(self, request, *args, **kwargs):
+
+        kwargs["partial"] = True
+
+        return super().update(request, *args, **kwargs)
 
 #student dashboard API View 
 

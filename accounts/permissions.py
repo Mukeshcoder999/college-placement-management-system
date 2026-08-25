@@ -64,7 +64,7 @@ class CanUpdateApplication(BasePermission):
 
         return request.user.role in [
             "company",
-            "placement_officer"
+            "officer"
         ]
 
 class CanDeleteJob(BasePermission):
@@ -75,7 +75,7 @@ class CanDeleteJob(BasePermission):
             request.user.is_authenticated
             and request.user.role in [
                 "company",
-                "placement_officer"
+                "officer"
             ]
         )
 
@@ -84,7 +84,7 @@ class CanDeleteJob(BasePermission):
         if request.user.role == "company":
             return obj.company.user == request.user
 
-        if request.user.role == "placement_officer":
+        if request.user.role == "officer":
             return True
 
         return False

@@ -171,7 +171,7 @@ REST_FRAMEWORK = {
         "django_filters.rest_framework.DjangoFilterBackend",
     ],
 
-    "EXCEPTION_HANDLER": "placement_project.exceptions.custom_exception_handler",
+    
 }
 
 SPECTACULAR_SETTINGS = {
@@ -232,7 +232,6 @@ LOGGING = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5175",
+    "http://localhost:5173",
 ]
-
 

@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from .models import StudentProfile
+import os
 
 
 class StudentProfileSerializer(serializers.ModelSerializer):
@@ -14,7 +15,25 @@ class StudentProfileSerializer(serializers.ModelSerializer):
         read_only=True
     )
 
+    resume = serializers.SerializerMethodField()
+
+    def get_resume(self, obj):
+
+        if not obj.resume:
+            return None
+
+        # Check if the file actually exists
+        if not os.path.exists(obj.resume.path):
+            return None
+
+        request = self.context.get("request")
+
+        if request:
+            return request.build_absolute_uri(obj.resume.url)
+
+        return obj.resume.url
+
     class Meta:
         model = StudentProfile
-        fields = '__all__'
+        fields = "__all__"
         read_only_fields = ["user"]

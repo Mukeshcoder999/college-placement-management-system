@@ -3078,3 +3078,331 @@ INFO 2026-08-12 11:40:15,403 django.utils.autoreload D:\college_placement_system
 INFO 2026-08-12 11:40:16,224 django.utils.autoreload Watching for file changes with StatReloader
 INFO 2026-08-12 11:40:16,243 django.utils.autoreload Watching for file changes with StatReloader
 INFO 2026-08-12 11:40:16,250 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 15:59:03,461 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 16:02:57,280 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 16:02:57,294 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 16:14:20,563 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 16:14:20,576 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 16:16:15,274 django.request Not Found: /media/resumes/MUKESH_YAVARNA.docx
+WARNING 2026-08-19 16:16:15,464 django.request Not Found: /favicon.ico
+WARNING 2026-08-19 16:16:48,492 django.request Not Found: /media/resumes/MUKESH_YAVARNA.docx
+WARNING 2026-08-19 16:17:06,683 django.request Not Found: /jobs/all/
+WARNING 2026-08-19 16:17:06,710 django.request Not Found: /jobs/all/
+WARNING 2026-08-19 16:17:06,980 django.request Not Found: /jobs/all/
+WARNING 2026-08-19 16:17:17,355 django.request Not Found: /media/resumes/MUKESH_YAVARNA.docx
+WARNING 2026-08-19 16:17:47,230 django.request Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2026-08-19 18:39:13,738 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 18:39:57,027 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 18:49:06,972 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 18:51:43,330 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 18:51:50,281 django.request Not Found: /favicon.ico
+INFO 2026-08-19 18:59:33,884 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 19:06:23,337 django.utils.autoreload D:\college_placement_system\placement_project\placement_project\settings.py changed, reloading.
+INFO 2026-08-19 19:06:24,066 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 19:06:51,298 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 19:10:23,600 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 19:10:27,106 django.request Not Found: /favicon.ico
+WARNING 2026-08-19 19:10:49,959 django.request Method Not Allowed: /accounts/api/login/
+INFO 2026-08-19 19:19:04,252 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 19:19:17,742 django.request Method Not Allowed: /accounts/api/login/
+INFO 2026-08-19 19:25:17,617 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 19:43:10,286 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:43:10,298 django.request Unauthorized: /students/dashboard/
+WARNING 2026-08-19 19:43:10,311 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:43:10,315 django.request Unauthorized: /students/dashboard/
+INFO 2026-08-19 19:43:39,488 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 19:43:50,921 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:43:50,921 django.request Unauthorized: /students/dashboard/
+WARNING 2026-08-19 19:43:50,930 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:43:50,930 django.request Unauthorized: /students/dashboard/
+WARNING 2026-08-19 19:43:55,109 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:43:55,124 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:49:19,317 django.request Unauthorized: /applications/
+WARNING 2026-08-19 19:49:19,318 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:49:19,330 django.request Unauthorized: /applications/
+WARNING 2026-08-19 19:49:19,336 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:49:20,079 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:49:20,087 django.request Unauthorized: /students/dashboard/
+WARNING 2026-08-19 19:49:20,116 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:49:20,119 django.request Unauthorized: /students/dashboard/
+WARNING 2026-08-19 19:49:21,360 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:49:21,367 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:58:46,901 django.request Unauthorized: /applications/
+WARNING 2026-08-19 19:58:46,902 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 19:58:46,912 django.request Unauthorized: /applications/
+WARNING 2026-08-19 19:58:46,912 django.request Unauthorized: /notifications/unread-count/
+INFO 2026-08-19 20:38:42,087 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 20:38:53,609 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 20:38:53,610 django.request Unauthorized: /applications/
+WARNING 2026-08-19 20:38:53,626 django.request Unauthorized: /applications/
+WARNING 2026-08-19 20:38:53,628 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 20:38:54,312 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 20:38:54,317 django.request Unauthorized: /students/dashboard/
+WARNING 2026-08-19 20:38:54,330 django.request Unauthorized: /students/dashboard/
+WARNING 2026-08-19 20:38:54,332 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 20:38:54,781 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 20:38:54,793 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:02:53,330 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:02:53,330 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 21:02:53,339 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:02:53,345 django.request Unauthorized: /students/profile/
+INFO 2026-08-19 21:21:38,307 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 21:23:35,967 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 21:23:35,967 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:23:35,985 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:23:35,994 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 21:23:36,506 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:23:36,520 django.request Unauthorized: /applications/
+WARNING 2026-08-19 21:23:36,541 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:23:36,561 django.request Unauthorized: /applications/
+WARNING 2026-08-19 21:23:37,406 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:23:37,420 django.request Unauthorized: /students/dashboard/
+WARNING 2026-08-19 21:23:37,450 django.request Unauthorized: /students/dashboard/
+WARNING 2026-08-19 21:23:37,456 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:23:42,850 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:23:42,871 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:43:37,116 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:43:37,120 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 21:43:37,347 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:43:37,349 django.request Unauthorized: /students/profile/
+INFO 2026-08-19 21:49:20,328 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 21:49:37,492 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 21:49:37,492 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:49:37,503 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 21:49:37,504 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:49:37,920 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:49:37,925 django.request Unauthorized: /applications/
+WARNING 2026-08-19 21:49:37,929 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:49:37,934 django.request Unauthorized: /applications/
+WARNING 2026-08-19 21:49:37,947 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:49:37,953 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 21:49:37,959 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:49:37,960 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 21:49:39,491 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:49:39,499 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:56:16,427 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 21:56:16,427 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 21:56:16,435 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 21:56:16,435 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:04:14,647 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:04:14,659 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:04:14,679 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:04:14,692 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:04:15,255 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:04:15,259 django.request Unauthorized: /applications/
+WARNING 2026-08-19 22:04:15,264 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:04:15,266 django.request Unauthorized: /applications/
+WARNING 2026-08-19 22:04:15,271 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:04:15,274 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:04:15,278 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:04:15,280 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:04:15,283 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:04:15,285 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:04:15,290 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:04:15,292 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:04:16,563 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:04:16,568 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:15:57,067 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:15:57,077 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:15:57,090 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:15:57,098 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:15:57,107 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:15:57,111 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:15:57,117 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:15:57,124 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:15:57,132 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:15:57,138 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:15:57,148 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:15:57,149 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:15:57,154 django.request Unauthorized: /applications/
+WARNING 2026-08-19 22:15:57,158 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:15:57,161 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:15:57,170 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:15:57,175 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:15:57,175 django.request Unauthorized: /applications/
+WARNING 2026-08-19 22:15:57,182 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:15:57,187 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:11,600 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:11,605 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:11,606 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:11,610 django.request Unauthorized: /applications/
+WARNING 2026-08-19 22:26:11,610 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:11,612 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:11,618 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:11,619 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:11,625 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:11,631 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:11,635 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:11,638 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:11,640 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:11,642 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:11,645 django.request Unauthorized: /applications/
+WARNING 2026-08-19 22:26:11,647 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:11,647 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:11,651 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:11,652 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:11,658 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:22,576 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:22,580 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:22,586 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:22,593 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:24,587 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:24,589 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:24,598 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:24,599 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:24,608 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:24,618 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:24,618 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:24,627 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:24,634 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:24,653 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:24,654 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:24,662 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:24,668 django.request Unauthorized: /applications/
+WARNING 2026-08-19 22:26:24,699 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:26:24,704 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:26:24,719 django.request Unauthorized: /applications/
+INFO 2026-08-19 22:31:15,485 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 22:56:04,552 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:56:04,553 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:56:04,558 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 22:56:04,561 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:56:08,264 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 22:56:08,273 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 23:05:06,191 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 23:05:06,191 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 23:05:06,204 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 23:05:06,206 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 23:29:16,657 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 23:29:16,660 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 23:29:16,666 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 23:29:16,668 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 23:29:16,672 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-19 23:29:16,679 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 23:29:16,694 django.request Unauthorized: /students/profile/
+WARNING 2026-08-19 23:29:16,695 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 09:58:29,914 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 09:58:29,918 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 09:58:29,940 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 09:58:29,945 django.request Unauthorized: /students/profile/
+INFO 2026-08-20 10:12:53,069 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-20 10:23:09,897 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 10:23:09,898 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 10:23:09,909 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 10:23:09,910 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 10:23:24,321 django.request Unauthorized: /students/profile/update/
+WARNING 2026-08-20 10:23:26,673 django.request Unauthorized: /students/profile/update/
+WARNING 2026-08-20 10:24:10,268 django.request Bad Request: /students/profile/update/
+INFO 2026-08-20 10:36:02,825 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-20 10:36:15,615 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 10:36:15,615 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 10:36:15,627 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 10:36:15,633 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 10:36:16,744 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 10:36:16,760 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 10:56:15,664 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 10:56:15,664 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 10:56:15,673 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 10:56:15,675 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 11:20:44,371 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 11:20:44,376 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 11:20:44,390 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 11:20:44,399 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 11:20:45,820 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 11:20:45,824 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 11:20:45,841 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 11:20:45,846 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 11:20:50,639 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 11:20:50,651 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 11:23:12,938 django.request Bad Request: /students/profile/update/
+WARNING 2026-08-20 11:24:16,292 django.request Bad Request: /students/profile/update/
+WARNING 2026-08-20 11:24:30,814 django.request Bad Request: /students/profile/update/
+WARNING 2026-08-20 11:28:00,205 django.request Bad Request: /students/profile/update/
+WARNING 2026-08-20 11:31:40,784 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 11:31:40,787 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 11:31:40,796 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 11:31:40,801 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 11:51:32,584 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 11:51:32,594 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 11:51:32,594 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 11:51:32,610 django.request Unauthorized: /students/profile/
+INFO 2026-08-20 12:10:08,145 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-20 12:10:37,691 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 12:10:37,692 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 12:10:37,696 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 12:10:37,696 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 12:10:39,850 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 12:10:39,858 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-20 12:11:15,005 django.request Bad Request: /students/profile/update/
+WARNING 2026-08-20 12:15:05,234 django.request Bad Request: /students/profile/update/
+INFO 2026-08-20 12:22:24,859 django.utils.autoreload D:\college_placement_system\placement_project\students\views.py changed, reloading.
+INFO 2026-08-20 12:22:25,454 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-20 12:23:29,933 django.request Bad Request: /applications/create/
+WARNING 2026-08-20 13:15:36,827 django.request Unauthorized: /companies/dashboard/
+WARNING 2026-08-20 13:15:36,838 django.request Unauthorized: /companies/dashboard/
+WARNING 2026-08-20 13:15:37,375 django.request Unauthorized: /students/profile/
+WARNING 2026-08-20 13:15:37,388 django.request Unauthorized: /students/profile/
+INFO 2026-08-20 13:36:41,357 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-20 13:39:39,325 django.request Not Found: /jobs/all/
+WARNING 2026-08-20 13:39:39,351 django.request Not Found: /jobs/all/
+WARNING 2026-08-20 13:39:39,488 django.request Not Found: /jobs/all/
+WARNING 2026-08-20 13:41:49,632 django.request Not Found: /jobs/all/
+WARNING 2026-08-20 13:41:49,660 django.request Not Found: /jobs/all/
+WARNING 2026-08-20 13:41:49,939 django.request Not Found: /jobs/all/
+INFO 2026-08-20 13:53:58,293 django.utils.autoreload D:\college_placement_system\placement_project\jobs\views.py changed, reloading.
+INFO 2026-08-20 13:53:59,174 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-20 13:59:05,108 django.request Not Found: /jobs/all/
+WARNING 2026-08-20 13:59:05,137 django.request Not Found: /jobs/all/
+WARNING 2026-08-20 13:59:05,408 django.request Not Found: /jobs/all/
+INFO 2026-08-20 14:11:04,395 django.utils.autoreload D:\college_placement_system\placement_project\accounts\permissions.py changed, reloading.
+INFO 2026-08-20 14:11:05,040 django.utils.autoreload Watching for file changes with StatReloader
+INFO 2026-08-20 14:11:20,464 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-20 18:25:25,797 django.request Not Found: /favicon.ico
+WARNING 2026-08-20 18:32:22,212 django.request Unauthorized: /applications/1/update/
+WARNING 2026-08-20 18:32:22,872 django.request Unauthorized: /applications/1/update/
+WARNING 2026-08-20 19:05:33,666 django.request Unauthorized: /placement-officer/dashboard/
+INFO 2026-08-20 19:14:44,432 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-20 19:37:23,119 django.request Unauthorized: /jobs/api/
+WARNING 2026-08-20 19:37:23,120 django.request Unauthorized: /applications/
+WARNING 2026-08-20 19:37:23,130 django.request Unauthorized: /jobs/api/
+WARNING 2026-08-20 19:37:23,130 django.request Unauthorized: /applications/
+INFO 2026-08-23 15:00:15,013 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-23 15:05:28,098 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:05:29,428 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:05:30,598 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:05:30,790 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:05:30,993 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:05:31,208 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:07:22,860 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:07:23,857 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:07:24,080 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:07:24,283 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:07:24,464 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:07:24,658 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:07:58,974 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:10:39,460 django.request Bad Request: /applications/create/
+INFO 2026-08-23 15:18:03,994 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-23 15:18:18,206 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-23 15:18:18,220 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-23 15:18:56,280 django.request Bad Request: /applications/create/
+WARNING 2026-08-23 15:28:39,096 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-23 15:28:39,098 django.request Unauthorized: /students/profile/
+WARNING 2026-08-23 15:28:39,107 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-23 15:28:39,109 django.request Unauthorized: /students/profile/
+INFO 2026-08-23 15:34:19,307 django.utils.autoreload D:\college_placement_system\placement_project\students\serializers.py changed, reloading.
+INFO 2026-08-23 15:34:20,003 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-23 15:35:07,603 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-23 15:35:07,617 django.request Unauthorized: /notifications/unread-count/
+WARNING 2026-08-23 15:35:30,598 django.request Not Found: /favicon.ico
+WARNING 2026-08-23 15:37:28,190 django.request Not Found: /media/resumes/MUKESH_YAVARNA.docx
+WARNING 2026-08-23 15:39:24,802 django.request Not Found: /media/resumes/MUKESH_YAVARNA.docx
+INFO 2026-08-23 16:04:23,468 django.utils.autoreload Watching for file changes with StatReloader
+WARNING 2026-08-23 22:17:10,411 django.request Unauthorized: /applications/
+WARNING 2026-08-23 22:17:10,411 django.request Unauthorized: /jobs/api/
+WARNING 2026-08-23 22:17:10,427 django.request Unauthorized: /applications/
+WARNING 2026-08-23 22:17:10,428 django.request Unauthorized: /jobs/api/
+WARNING 2026-08-23 22:17:15,572 django.request Unauthorized: /applications/
+WARNING 2026-08-23 22:17:15,572 django.request Unauthorized: /jobs/api/
+WARNING 2026-08-23 22:17:15,586 django.request Unauthorized: /applications/
+WARNING 2026-08-23 22:17:15,588 django.request Unauthorized: /jobs/api/
+INFO 2026-08-24 15:16:57,347 jobs.views Job 'java developer' created by user 'Nitco'

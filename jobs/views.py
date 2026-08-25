@@ -57,7 +57,7 @@ class JobListAPIView(generics.ListAPIView):
                 company=user.companyprofile
             )
 
-        elif user.role == "placement_officer":
+        elif user.role == "officer":
 
             return Job.objects.all()
 
